@@ -78,5 +78,5 @@ if(update.data) {
   comb.melt = melt(comb.data, id = c("subject.id", "activity.id", "activity.label"), measure.vars = names(comb.data)[3:68])
   tidy.data = dcast(comb.melt, subject.id + activity.id + activity.label ~ variable, mean)
   
-  write.csv(x = tidy.data, file = "output-tidy-dataset.csv")
+  write.table(x = tidy.data, file = "output-tidy-dataset.txt", row.names = F)
 }
