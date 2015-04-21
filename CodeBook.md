@@ -4,8 +4,14 @@ This document (CodeBook.md) is a code book that describes the variables, the dat
 
 ## Variables
 
+
 ## Data
+Data read from url:
+
+More info can be found in the ReadMe files here: 
 
 ## Transformations
-
+combining: 
+subsetting:
+maths: (average)
 
